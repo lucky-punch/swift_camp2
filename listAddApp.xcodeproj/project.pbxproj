@@ -12,6 +12,8 @@
 		32093D812180C70B0000C530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32093D7F2180C70B0000C530 /* Main.storyboard */; };
 		32093D832180C7120000C530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32093D822180C7120000C530 /* Assets.xcassets */; };
 		32093D862180C7120000C530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32093D842180C7120000C530 /* LaunchScreen.storyboard */; };
+		32093D922180D3700000C530 /* listTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32093D912180D3700000C530 /* listTableViewController.swift */; };
+		32093D942180D3DC0000C530 /* listAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32093D932180D3DC0000C530 /* listAddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		32093D822180C7120000C530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32093D852180C7120000C530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32093D872180C7120000C530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32093D912180D3700000C530 /* listTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listTableViewController.swift; sourceTree = "<group>"; };
+		32093D932180D3DC0000C530 /* listAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listAddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				32093D822180C7120000C530 /* Assets.xcassets */,
 				32093D842180C7120000C530 /* LaunchScreen.storyboard */,
 				32093D872180C7120000C530 /* Info.plist */,
+				32093D912180D3700000C530 /* listTableViewController.swift */,
+				32093D932180D3DC0000C530 /* listAddViewController.swift */,
 			);
 			path = listAddApp;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				32093D7E2180C70B0000C530 /* ViewController.swift in Sources */,
 				32093D7C2180C70B0000C530 /* AppDelegate.swift in Sources */,
+				32093D942180D3DC0000C530 /* listAddViewController.swift in Sources */,
+				32093D922180D3700000C530 /* listTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
